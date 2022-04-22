@@ -1,4 +1,4 @@
-rootProject.name = "kotlin-template"
+rootProject.name = "saikou-api"
 
 pluginManagement.repositories {
     mavenLocal()
