@@ -37,6 +37,15 @@ dependencies {
         kotlinModules.forEach {
             implementation("org.jetbrains.kotlin", "kotlin-$it", KOTLIN)
         }
+
+        // Also provides okhttp5 & jsoup
+        api("com.github.Blatzar", "NiceHttp", NICEHTTP)
+
+//        api("com.squareup.okhttp3", "okhttp", OKHTTP)
+//        api("org.jsoup", "jsoup", JSOUP)
+        api("org.jetbrains.kotlinx", "kotlinx-serialization-json", KT_SERIALIZATION_JSON)
+        api("org.jetbrains.kotlinx", "kotlinx-coroutines-core", KT_COROUTINES)
+
         testImplementation("org.jetbrains.kotlin", "kotlin-test", KOTLIN)
     }
 }

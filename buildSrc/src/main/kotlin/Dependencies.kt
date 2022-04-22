@@ -10,6 +10,11 @@ object Plugins {
 
 object Dependencies {
     const val KOTLIN = kotlinVersion
+    const val NICEHTTP = "0.1.3"
+//    const val OKHTTP = "4.9.3"
+//    const val JSOUP = "1.14.3"
+    const val KT_SERIALIZATION_JSON = "1.3.2"
+    const val KT_COROUTINES = "1.6.0-native-mt"
 
     val kotlinModules = arrayOf("stdlib")
 }
